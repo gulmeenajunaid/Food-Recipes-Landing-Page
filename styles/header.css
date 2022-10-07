@@ -35,6 +35,9 @@
 .recipes-tab {
 	margin-right: 25px;
 }
+a:link {
+	color: #e5e7eb;
+}
 a:visited {
 	color: #e5e7eb;
 }
