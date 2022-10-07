@@ -1,0 +1,20 @@
+#review-section {
+	background-color: #e5e7eb;
+	color: #1f2937;
+	padding: 100px 312px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.review-text {
+	font-size: 36px;
+	font-style: italic;
+	font-weight: lighter;
+	text-align: justify;
+}
+.review-author {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: right;
+}

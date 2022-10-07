@@ -1,0 +1,31 @@
+#sign-up-section {
+	padding: 110px 130px;
+}
+.sign-up-div,
+.sign-up-btn {
+	background-color: #3882f6;
+	color: #e5e7eb;
+	border-radius: 7px;
+}
+.sign-up-div {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 40px 120px;
+}
+.sign-up-call {
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+.sign-up-subtext {
+	color: #e5e7eb;
+	font-size: 18px;
+}
+.sign-up-btn {
+	font-size: 16px;
+	font-weight: bold;
+	padding: 6px 24px;
+	border: 2px solid white;
+}
