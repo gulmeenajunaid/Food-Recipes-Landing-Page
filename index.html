@@ -1,62 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<link rel="stylesheet" href="./styles/general.css">
-		<link rel="stylesheet" href="./styles/header.css">
-		<link rel="stylesheet" href="./styles/hero.css">
-		<link rel="stylesheet" href="./styles/footer.css">
-		<link rel="stylesheet" href="./styles/recipe-section.css">
-		<link rel="stylesheet" href="./styles/review-section.css">
-		<link rel="stylesheet" href="./styles/sign-up-section.css">
+		<link rel="stylesheet" href="./styles/general.css" />
+		<link rel="stylesheet" href="./styles/header.css" />
+		<link rel="stylesheet" href="./styles/hero.css" />
+		<link rel="stylesheet" href="./styles/footer.css" />
+		<link rel="stylesheet" href="./styles/recipe-section.css" />
+		<link rel="stylesheet" href="./styles/review-section.css" />
+		<link rel="stylesheet" href="./styles/sign-up-section.css" />
 
 		<title>Gulmeena's Kitchen</title>
 	</head>
 
 	<body>
 		<header id="header">
-			<nav class="nav-bar">
-				<div class="nav-logo">
-					<img class="logo" src="./images/logo.png" alt="website logo" />
-					<div class="logo-text">Gulmeena's Kitchen</div>
-				</div>
-				<div class="nav-items">
-					<div><a class="home-tab" href="#hero-banner">Home</a></div>
-					<div><a class="recipes-tab" href="#recipes-section">Recipes</a></div>
-					<div><a class="review-tab" href="#review-section">Reviews</a></div>
-				</div>
+			<figure class="page-logo">
+				<img class="logo" src="./images/logo.png" alt="website logo" />
+				<figcaption class="logo-text">Gulmeena's Kitchen</figcaption>
+			</figure>
+			<nav>
+				<menu class="nav-items">
+					<li><a href="#hero-banner">Home</a></li>
+					<li><a href="#recipes-section">Recipes</a></li>
+					<li><a href="#review-section">Reviews</a></li>
+				</menu>
 			</nav>
 		</header>
 
 		<main>
 			<section id="hero-banner">
 				<div class="hero-banner-text">
-					<div class="hero-primary-text">
-						Welcome to Gulmeena's <br />Kitchen
-					</div>
-					<article class="hero-secondary-text">
+					<h1 class="hero-primary-text">Welcome to Gulmeena's <br />Kitchen</h1>
+					<p class="hero-secondary-text">
 						Looking for afternoon tea inspiration? <br />
 						Then you are at the right place! <br />
 						Make your tea time delightful with these delicious tea time recipes
 						<br />
 						that you can easily make and enjoy at home.
-					</article>
+					</p>
 					<button class="hero-sign-up-btn">Sign Up</button>
 				</div>
-				<div class="hero-banner-img">
-					<img
-						src="./images/wraps.jpeg"
-						alt="Hero banner image of chicken wraps"
-						class="hero-img"
-					/>
-				</div>
+				<img
+					src="./images/wraps.jpeg"
+					alt="Hero banner image of chicken wraps"
+					class="hero-img"
+				/>
 			</section>
 
 			<section id="recipes-section">
-				<div class="recipe-info">Featured Afternoon Tea Recipes</div>
+				<p class="recipe-info">Featured Afternoon Tea Recipes</p>
 				<div class="recipes-preview">
 					<figure class="recipe">
 						<img
@@ -64,7 +60,7 @@
 							alt="Food Image:Dahi Chaat"
 							class="thumbnail"
 						/>
-						<p class="description">Dahi Chaat</p>
+						<figcaption class="description">Dahi Chaat</figcaption>
 					</figure>
 					<figure class="recipe">
 						<img
@@ -72,7 +68,7 @@
 							alt="Food Image:Coffee Cream Cake"
 							class="thumbnail"
 						/>
-						<p class="description">Coffee Cream Cake</p>
+						<figcaption class="description">Coffee Cream Cake</figcaption>
 					</figure>
 					<figure class="recipe">
 						<img
@@ -80,7 +76,7 @@
 							alt="Food Image:Gozleme"
 							class="thumbnail"
 						/>
-						<p class="description">Gozleme</p>
+						<figcaption class="description">Gozleme</figcaption>
 					</figure>
 					<figure class="recipe">
 						<img
@@ -88,35 +84,31 @@
 							alt="Food Image:Strawberry Cheese Cake"
 							class="thumbnail"
 						/>
-						<p class="description">Strawberry Cheese Cake</p>
+						<figcaption class="description">Strawberry Cheese Cake</figcaption>
 					</figure>
 				</div>
 			</section>
 
 			<section id="review-section">
 				<blockquote class="review">
-					<div class="review-text">
+					<p class="review-text">
 						These recipes are so quick and easy to make and at this time of year
 						I am all about quick and easy recipes. The wraps, chaat and coffee
 						cake are my favorites and they taste absolutely divine.
-					</div>
-					<div class="review-author">-Ali Khan</div>
+					</p>
+					<p class="review-author">-Ali Khan</p>
 				</blockquote>
 			</section>
 
 			<section id="sign-up-section">
-				<div class="sign-up-div">
-					<div>
-						<div class="sign-up-call">Call to action! It's time!</div>
-						<div class="sign-up-subtext">
-							Sign up for more delicious tea time recipies by clicking that
-							button right over there!
-						</div>
-					</div>
-					<div>
-						<button class="sign-up-btn">Sign Up</button>
-					</div>
-				</div>
+				<aside class="sign-up-div">
+					<p class="sign-up-call">Call to action! It's time!</p>
+					<p class="sign-up-subtext">
+						Sign up for more delicious tea time recipies by clicking that button
+						right over there!
+					</p>
+				</aside>
+				<button class="sign-up-btn">Sign Up</button>
 			</section>
 		</main>
 

@@ -9,8 +9,9 @@
 .hero-primary-text {
 	font-size: 48px;
 	color: #f9faf8;
-	font-weight: 800;
-	letter-spacing: -0.3px;
+	font-weight: bold;
+	letter-spacing: -0.6px;
+	margin: 0;
 }
 .hero-secondary-text {
 	font-size: 18px;
@@ -26,9 +27,6 @@
 	padding: 8px 24px;
 	border: none;
 	border-radius: 6px;
-}
-.hero-banner-img {
-	display: flex;
 }
 .hero-img {
 	max-width: 100%;
